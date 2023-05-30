@@ -5,7 +5,7 @@ function App() {
     <div id="homepage">
       <header>
         <img
-          src="public/logo.jpeg"
+          src="/logo.jpeg"
           alt="Logo de Universo Reclutamiento y Selección"
         />
         <h1>Universo Reclutamiento y Selección</h1>
@@ -44,7 +44,7 @@ function App() {
           </ul>
         </section>
         <div className="chatbot">
-          <img src="public/LogoChatBot.png" alt="Chat con nosotros" />
+          <img src="/LogoChatBot.png" alt="Chat con nosotros" />
           <span>¿Necesitas ayuda?</span>
         </div>
       </main>
