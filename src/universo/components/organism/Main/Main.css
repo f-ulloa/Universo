@@ -1,0 +1,28 @@
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra el contenido a lo largo del eje vertical. */
+  gap: 20px;
+}
+
+h2, p, ul {
+  padding: 10px 100px;
+}
+
+main section h2 {
+  color: #007bb2;
+  text-align: center; /* Centra el texto. */
+}
+
+main section p, main section ul {
+  text-align: justify; /* Justifica el texto. */
+}
+
+.welcome-section {
+  padding: 150px 100px;
+  background-image: url('/logo3.png');
+  background-size: 100% 100%;
+/*   height: 1000px;
+  background-position: center; */
+}

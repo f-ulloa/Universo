@@ -1,9 +1,10 @@
-html, body #root #homepage {
+html, body, #root, #homepage {
   height: 100%;
-  min-height: 100vh;  /* Esto asegura que el body tenga al menos la altura de la ventana del navegador. */
   width: 100%;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
+  font-family: Arial, sans-serif;
+  background-color: #d0e8f2;
 }

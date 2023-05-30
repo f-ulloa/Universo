@@ -1,0 +1,24 @@
+header {
+  background-color: #007bb2;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  width: 100px;
+}
+
+header h1 {
+  flex-grow: 1;
+  padding-left: 50px;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
