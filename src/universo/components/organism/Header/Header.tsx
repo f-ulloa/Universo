@@ -8,6 +8,7 @@ export const Header = () => {
       <h1>Universo Reclutamiento y Selección</h1>
       <nav>
         <ul>
+          <Link href="/home" textRef="Inicio" />
           <Link href="/about" textRef="Acerca de" />
           <Link href="/services" textRef="Servicios" />
           <Link href="/contact" textRef="Contacto" />

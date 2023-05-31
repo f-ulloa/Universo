@@ -1,6 +1,37 @@
 footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.information {
   background-color: #007bb2;
   color: white;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.information div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 80%;
+  margin: 0px;
+  align-items: stretch;
+}
+
+.information div p {
+  padding: 16px 40px;
+  font-size: 16px;
+  border-left: 1px solid white;
+  flex-grow: 1;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0b4863;
+  color: white;
   padding: 20px;
 }

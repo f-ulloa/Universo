@@ -12,7 +12,7 @@
 
 .chatbot span {
   visibility: hidden;
-  background-color: #0000FF;
+  background-color: #0000ff;
   color: white;
   text-align: center;
   border-radius: 6px;
@@ -32,7 +32,7 @@
 
 .chatbot img:hover {
   border-radius: 50%;
-  border: 3px solid #0000FF;
+  border: 3px solid #0000ff;
   box-sizing: border-box;
 }
 
